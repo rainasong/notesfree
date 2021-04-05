@@ -82,7 +82,7 @@ const NavDrawer = props => {
         edge="start"
         color="inherit"
         aria-label="menu">
-        <MenuIcon />
+        <MenuIcon style={{color: 'white'}}/>
       </IconButton>
       <Drawer anchor="left"
         open={isOpen}
@@ -117,7 +117,8 @@ const Header = () => {
       <AppBar position="sticky" className={classes.header}>
         <Toolbar>
           <MUIDrawer />
-          <Typography variant="h5" component="h1">
+          <img src="./_assets/App-icon.png" style={{width: '30px', marginRight: '5px'}}/>
+          <Typography variant="h5" component="h1" style={{color: 'white'}}>
             NotesFree
           </Typography>
         </Toolbar>

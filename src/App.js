@@ -9,6 +9,7 @@ import Navbar from "./components/navbar/navbar";
 import Header from "./components/header"
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {Grid} from "@material-ui/core"
+import { Bar, Pie } from 'react-chartjs-2';
 
 function App() {
   return (
