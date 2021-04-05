@@ -9,8 +9,7 @@ const PieChartPage = () => {
     const [pieIndex, setPieIndex] = useState(0);
     const [title, setTitle] = useState('');
     const [username, setUsername] = useState('');
-console.log(config.img);
-// console.log(image);
+
     useEffect(() => {
         setTitle('Productivity Application Brainstorm');
         setUsername('Japan Xinchipa');

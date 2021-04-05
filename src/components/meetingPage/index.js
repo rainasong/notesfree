@@ -1,5 +1,6 @@
 import React from 'react';
 import {Grid} from '@material-ui/core/';
+import './index.css';
 
 const TextBox = ({text}) => {
     return(
@@ -13,7 +14,8 @@ const MeetingPage = () => {
     return (
         <Grid container 
             direction="row"
-            justify="flex-start">
+            justify="flex-start"
+            className='grid'>
             <Grid container item 
             direction="column">
                 <TextBox text="Meeting Title"/>

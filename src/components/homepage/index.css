@@ -1,0 +1,49 @@
+#btn{
+   height: 13vh;
+   width: 70vw;
+   border-radius: 20px;
+   border-width: 5px;
+   border-color: #82D930;
+   box-shadow: none;
+   background-color: #212024;
+   font-size: 30px;
+   color: white;
+}
+
+#link{
+    text-decoration: none;
+    color: white;
+}
+
+.listContainer{
+    height: 10vh;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: #2C2D30;
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70vw;
+    transform: translateX(21%);
+    position: relative;
+}
+
+#loadbtn{
+    position: absolute;
+    border-radius: 13px;
+    transform: translate(400%, -50%);
+    width: 5vw;
+    height: 5vh;
+    background-color: #82D930;
+    border: none;
+    color: white;
+}
+
+.listLeft{
+    position: relative;
+    transform: translate(-350%, -20%);
+    height: 5vh;
+    color: white;
+}
