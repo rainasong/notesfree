@@ -6,6 +6,9 @@ import KeywordPage from "./components/keywordPage";
 import SummaryPage from "./components/summaryPage";
 import PieChartPage from "./components/pieChartPage";
 import Navbar from "./components/navbar/navbar";
+import React from 'react'
+
+
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
@@ -24,7 +27,7 @@ function App() {
                 </Switch>
             </div>
         </Router>
-    </div>
+    </div>  
   );
 }
 
