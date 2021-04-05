@@ -1,10 +1,12 @@
 import React from 'react';
 import './navbar.css';
 import {Link} from "react-router-dom";
+import { Grid} from "@material-ui/core";
+
 
 const Navbar = () => {
     return (
-        <>
+        <Grid item xs={12}>
             <nav className="navbar">
                 <ul className="navbarContainer">
                     <li className="navbarItem">
@@ -27,7 +29,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
-        </>
+        </Grid>
     );
 }
 
